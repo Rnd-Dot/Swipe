@@ -1,20 +1,27 @@
-// 1 задача
+// 1 задача.  Если нужно забраться на холм , а не столб
 
+const task1 = ( distance, day, night ) => {
+    const time = distance / day; // общее время без отката назад (2 дня)
+    const rollback = time * night; // расстояние отката назад за эти 2 дня (60м)
+    return ( rollback / day ) + time; // в скобках время затраченное на откат назад (1.2 дня) + время которое черепаха прошла вперед (2 дня)
+}
+// Ответ: 3.2 дня
 
 // 2 задача
 
 const task2 = () => {
-    let result = 0;
-    for (let i = 1; i < 10; i += 1) {
-        result += i;
+    let result = 0; //  колличество рукопожатий изначально
+    for (let i = 1; i < 10; i += 1) {  // i = 1 (человек который находится в комнате); i += 1 (заодят по одному) 
+        result += i; // колличество рукопожатий + колличество человек в комнате
     }
     return result;
 }
+// Ответ: 45 рукопожатий
 
 // 3 задача
 
 const task3 = (string) => {
-    const arr = string.split(",");
-    const newArr = [...new Set(arr)];
-    return newArr.join("");
+    const arr = string.split(","); // разбиваем строку на массив
+    const newArr = [...new Set(arr)]; // с помощью  Set делаем масств с уникальными значениями
+    return newArr.join(""); // возращаем массив в строку
 }
