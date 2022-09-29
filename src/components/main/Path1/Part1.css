@@ -1,0 +1,96 @@
+.wrapper-main {
+    position: relative;
+    margin-top: 197px;
+}
+
+.titel {
+    text-transform: uppercase;
+    position: absolute;
+    left: 260px;
+
+    color: #141414;
+}
+
+.block1 {
+    padding-top: 193px;
+    height: 576px;
+    position: relative;
+}
+
+.wrapper-text1 {
+    width: 860px;
+    height: auto;
+    position: absolute;
+    right: 75px;
+    top: 254px;
+}
+
+.photo1 {
+    width: 860px;
+    height: 480px;
+    position: absolute;
+    left: 0;
+    top: 189px;
+    background: url("../../../images/main/julia-2.png") no-repeat -23px -104px;
+}
+
+.titel1 {
+    width: 600px;
+    height: auto;
+    line-height: 53px;
+}
+
+.text1 {
+    width: 600px;
+    height: auto;
+    padding-top: 32px;
+}
+
+.text2 {
+    width: 600px;
+    height: auto;
+    padding-top: 8px;
+}
+
+
+
+.block2 {
+    height: 412px;
+    position: relative;
+}
+
+.wrapper-text2 {
+    width: 600px;
+    height: auto;
+    position: absolute;
+    left: 262px;
+    top: 20px;
+}
+
+
+.photo2 {
+    position: absolute;
+    right: 335px;
+    width: 599px;
+    height: 411px;
+    background: url("../../../images/main/taisiia-stupak-2.png") no-repeat center -140px;
+}
+
+.titel2 {
+    width: 600px;
+    height: auto;
+    line-height: 53px
+}
+
+
+.text3 {
+    width: 600px;
+    height: auto;
+    padding-top: 32px;
+}
+
+.text4 {
+    width: 600px;
+    height: auto;
+    padding-top: 8px;
+}

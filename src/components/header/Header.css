@@ -1,0 +1,31 @@
+header {
+    width: 100%;
+    height: 100px;
+    position: fixed;
+    top: 0;
+    z-index: 2;
+    background: linear-gradient(0deg, #464341 0%, #010101 100%);
+}
+
+.logo {
+    position: absolute;
+    left: 262px;
+    top: 33px;
+}
+
+.logo1 {
+    padding-left: 7px;
+}
+
+.number {
+    font-family: 'Orchidea Pro';
+    font-weight: 500;
+    font-size: 24px;
+
+    position: absolute;
+    right: 266px;
+    top: 37px;
+
+    line-height: 33px;
+    color: white;
+}

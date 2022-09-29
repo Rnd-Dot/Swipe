@@ -1,0 +1,51 @@
+.wrapper-swipe {
+    height: auto;
+    position: relative;
+}
+
+.titel-swipe {
+    text-transform: uppercase;
+    position: absolute;
+    top: -189px;
+    left: 261px;
+    color: #141414;
+}
+
+.swiper {
+    width: 82%;
+    margin: 342px 0 0 0;
+    padding-left: 263px;  
+}
+
+.swiper-slide {
+    width: 320px;
+    height: 489px;
+}
+
+.swipe1 {
+    background: url("../../../images/swipe/andres-vera-1.png") no-repeat center center;
+}
+
+.swipe2 {
+    background: url("../../../images/swipe/andres-vera-2.png") no-repeat center center;
+}
+
+.swipe3 {
+    background: url("../../../images/swipe/andres-vera-3.png") no-repeat center center;
+}
+
+.swipe4 {
+    background: url("../../../images/swipe/andres-vera-4.png") no-repeat center center;
+}
+
+.swipe5 {
+    background: url("../../../images/swipe/andres-vera-5.png") no-repeat center center;
+}
+
+.swipe6 {
+    background: url("../../../images/swipe/andres-vera-6.png") no-repeat center center;
+}
+
+.swipe7 {
+    background: url("../../../images/swipe/andres-vera-7.png") no-repeat center center;
+}
